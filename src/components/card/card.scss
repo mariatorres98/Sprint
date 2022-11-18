@@ -1,0 +1,29 @@
+.pintar__restaurantes{
+    display: flex;
+    flex-direction: column;
+    
+}
+.card__restaurante{
+    display: flex;
+    background-color: rgb(249, 248, 250);
+    width: 60%;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-left: 20%;
+
+}
+.restaurante{
+width: 40%;
+height: 50%;
+border-radius: 5px;
+margin-top: 3%;
+margin-left: 3%;
+margin-bottom: 3%;
+}
+.calificacion{
+    width: 10%;
+}
+.card__derecha{
+    margin-top: 8%;
+margin-left: 3%;
+}

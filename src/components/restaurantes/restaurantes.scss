@@ -1,0 +1,36 @@
+.card__superior__contenedor{
+display: flex;
+width: 100%;
+justify-content: center;
+}
+
+
+.card__superior{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 5px;
+}
+.card__inferior{
+    display: flex;
+    width: 100%;
+    
+}
+.card__super__inferior{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+.logo__restaurante{
+    width: 15%;
+    border-radius: 70%;
+    margin-left: 40%;
+}
+.producto__restaurante{
+    width: 25%;
+    height: 75%;
+    border-radius: 30px;
+border-top-left-radius: 0;
+}

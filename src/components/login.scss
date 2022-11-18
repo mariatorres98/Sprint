@@ -1,0 +1,33 @@
+.google__inicio{
+border-radius: 5px;
+border-style: none;
+background-color:  #FFE031;
+padding: 5px;
+margin: 5px;
+}
+.crear__cuenta{
+    text-decoration: none;
+    margin: 5px;
+    color: black;
+    border-radius: 5px;
+border-style: none;
+background-color:  #FFE031;
+padding: 5px;
+margin: 5px;
+}
+.google{
+    border-radius: 10px;
+    background-color: #FFE031;
+}
+.logo__login{
+    display: flex;
+        
+        width: 10%;
+        justify-content: center;
+        border-radius: 10px;
+}
+.contenedor__login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

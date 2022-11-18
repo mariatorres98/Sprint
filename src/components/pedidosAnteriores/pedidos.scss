@@ -1,0 +1,17 @@
+.pedidos__card{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    background-color: rgb(198, 245, 245);
+    border-radius: 10px;
+}
+.pedidos__logo{
+    width:  20%;
+    border-radius: 300px;
+}
+.contenedor__pedidos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}

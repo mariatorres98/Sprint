@@ -1,0 +1,25 @@
+.boton__logout{
+border-style: none;
+background-color: transparent;
+margin: 10px;
+border-radius: 10px;
+background-color: rgb(182, 117, 127);
+padding: 5px;
+}
+.boton__home{
+    display: flex;
+    justify-content: center;
+    border-style: none;
+    text-decoration:none;
+background-color: transparent;
+margin: 10px;
+border-radius: 10px;
+background-color: rgb(207, 241, 179);
+color: black;
+padding: 5px;
+}
+.logo__nav{
+    height: 50px;
+    width: 60px;
+    margin-left: 20px;
+}

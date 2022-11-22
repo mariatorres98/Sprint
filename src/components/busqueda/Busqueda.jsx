@@ -3,6 +3,7 @@ import './busqueda.scss'
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import Footer from "../footer/Footer";
+import recientes from '../imagenes.food/recientes.png'
 const Busqueda = () => {
   return (
     <>
@@ -17,7 +18,7 @@ const Busqueda = () => {
               <Button variant="outline-success">Search</Button>
               
             </Form>
-            
+            <img src={recientes} alt="" className='recientes__busqueda'/>
             
             <Footer/>
     </>

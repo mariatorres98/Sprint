@@ -10,6 +10,7 @@ align-items: center;
     display: flex;
     flex-direction: column;
     width: 50%;
+    height: 200px;
     background-color: rgb(253, 251, 249);
     border-radius: 10px;
     padding: 5px;
@@ -29,8 +30,15 @@ align-items: center;
     border-radius: 70%;
     margin-left: 40%;
 }
+.contenedor__imagen__restaurantes{
+width: 40%;
+}
+.contenedor__letra__restaurantes{
+    width: 50%;
+    font-size: 80%;
+}
 .producto__restaurante{
-    width:200px;
+    width:60%;
     border-radius: 30px;
 border-top-left-radius: 0;
 }

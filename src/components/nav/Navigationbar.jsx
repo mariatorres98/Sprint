@@ -42,7 +42,7 @@ const Navigationbar = ({ isAuthentication }) => {
             ) : (
               <Nav className="justify-content-end flex-grow-1 pe-3">
                 <NavLink to="/" className="crear__cuenta">Login</NavLink>
-                <NavLink to="/register" className="crear__cuenta">Register</NavLink>
+                
               </Nav>
             )}
 

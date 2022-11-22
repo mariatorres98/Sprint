@@ -1,10 +1,17 @@
 .carrucel{
     width: 55%;
+    height: 20%;
+}
+.imagen__Carrucel1{
+    border-radius: 5px;
+    margin-left: 15%;
+    width: 30%;
+    cursor: pointer;
 }
 .imagen__Carrucel{
     border-radius: 5px;
-    margin-left: 20%;
     width: 30%;
+    cursor: pointer;
 }
 .titulo__carrucel{
     font-weight: 600;

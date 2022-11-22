@@ -8,22 +8,25 @@ const Carrucel = () => {
       <p className='titulo__carrucel'>Restaurants and cafes</p>
 <Carousel cols={4} rows={1} gap={-10}loop >
       <Carousel.Item className='ll'>
-        <img  src="https://www.monsieur-cuisine.com/fileadmin/_processed_/a/8/csm_23148_Rezeptfoto_01_1883563d21.jpg" className='imagen__Carrucel'/>
+        <img  src="https://www.monsieur-cuisine.com/fileadmin/_processed_/a/8/csm_23148_Rezeptfoto_01_1883563d21.jpg" className='imagen__Carrucel1'/>
       </Carousel.Item>
       <Carousel.Item>
-        <img width="30%" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F21%2F2018%2F11%2F07%2Fgettyimages-686104342-2000.jpg&q=60" className='imagen__Carrucel' />
+        <img  src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F21%2F2018%2F11%2F07%2Fgettyimages-686104342-2000.jpg&q=60" className='imagen__Carrucel' />
       </Carousel.Item>
       <Carousel.Item>
-        <img width="30%" src="https://images.dissapore.com/wp-content/uploads/2022/04/shutterstock_1910386987.jpg" className='imagen__Carrucel' />
+        <img  src="https://images.dissapore.com/wp-content/uploads/2022/04/shutterstock_1910386987.jpg" className='imagen__Carrucel' />
       </Carousel.Item>
       <Carousel.Item>
-      <img width="30%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSegwIp7FrQtV4ytMHIlOluQc6aNMB9YFEc2Smpg331RFIRxZJkosJACYoXagwkXkXv7js&usqp=CAU" className='imagen__Carrucel'/>
+      <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSegwIp7FrQtV4ytMHIlOluQc6aNMB9YFEc2Smpg331RFIRxZJkosJACYoXagwkXkXv7js&usqp=CAU" className='imagen__Carrucel'/>
       </Carousel.Item>
       <Carousel.Item>
-      <img width="30%" src="https://www.monsieur-cuisine.com/fileadmin/_processed_/a/8/csm_23148_Rezeptfoto_01_1883563d21.jpg" className='imagen__Carrucel'/>
+      <img  src="https://cdn7.kiwilimon.com/ss_secreto/2172/960x640/2172.jpg.jpg" className='imagen__Carrucel'/>
       </Carousel.Item>
       <Carousel.Item>
-        <img width="30%" src="https://www.monsieur-cuisine.com/fileadmin/_processed_/a/8/csm_23148_Rezeptfoto_01_1883563d21.jpg" className='imagen__Carrucel'/>
+        <img  src="https://www.elespectador.com/resizer/zrHvj5z4L2SoruKnWNYnT4YmuFo=/920x613/filters:format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/2F4WF2CH7BC4DCCLMRBGS34KVQ.jpg" className='imagen__Carrucel'/>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img  src="https://www.pcrm.org/sites/default/files/2019-12/Untitled%20%283%29_1.jpg" className='imagen__Carrucel'/>
       </Carousel.Item>
       
     </Carousel>

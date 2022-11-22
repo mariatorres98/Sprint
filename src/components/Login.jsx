@@ -58,10 +58,10 @@ const Login = () => {
         Iniciar Sesión
       </Button>
       <img src='https://blog.hubspot.com/hubfs/image8-2.jpg' alt="Google" style={{width: 80, marginLeft: 30}} onClick={handleLoginGoogle} className='google'/>
-      <button onClick={handleLoginFacebbok} className='google__inicio'>facebook</button>
+      <img src='https://1000marcas.net/wp-content/uploads/2019/12/Facebook-logo.jpg' alt="Google" style={{width: 80, marginLeft: 30}} onClick={handleLoginFacebbok} className='google'/>
     </Form>
     <Link to="/Register" className="crear__cuenta">¿Desea crear una cuenta?</Link>
-    <button onClick={pagina1} className='google__inicio'>Introducion</button>
+    <button onClick={pagina1} className='google__inicio'>Introduccion</button>
     
     
   </div>

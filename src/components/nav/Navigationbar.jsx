@@ -10,6 +10,8 @@ import { NavLink } from "react-router-dom";
 import { actionLogoutAsync } from "../../redux/actions/userActions";
 import './navigationbar.scss'
 import logo from '../imagenes.food/Play.gif'
+import direccion from '../imagenes.food/direccion.png'
+import logout from '../imagenes.food/logout.PNG'
 
 const Navigationbar = ({ isAuthentication }) => {
   const dispatch = useDispatch();
@@ -28,14 +30,14 @@ const Navigationbar = ({ isAuthentication }) => {
         >
           <Offcanvas.Header closeButton>
             <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${"md"}`}>
-              Offcanvas
+              Delivery app
             </Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body>
             {isAuthentication ? (
               <Nav className="justify-content-end flex-grow-1 pe-3">
-                <NavLink to="/home" className="boton__home" >Home</NavLink>
-                <button className="boton__logout" onClick={logOut}>Logout</button>
+                <img src={direccion} alt="" className="direccion__home"/>
+                <button className="boton__logout" onClick={logOut}><img src={logout} alt="" className="img__logout" /></button>
               </Nav>
             ) : (
               <Nav className="justify-content-end flex-grow-1 pe-3">

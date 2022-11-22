@@ -1,7 +1,8 @@
 .card__superior__contenedor{
 display: flex;
 width: 100%;
-justify-content: center;
+flex-direction: column;
+align-items: center;
 }
 
 
@@ -29,8 +30,18 @@ justify-content: center;
     margin-left: 40%;
 }
 .producto__restaurante{
-    width: 25%;
-    height: 75%;
+    width:200px;
     border-radius: 30px;
 border-top-left-radius: 0;
+}
+.imagen__producto{
+    width: 30%;
+    border-radius: 5px;
+}
+.main__productos{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 50%;
+    gap: 20px;
 }

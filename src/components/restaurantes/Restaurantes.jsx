@@ -25,7 +25,36 @@ const Restaurantes = () => {
           </div>
         </div>
       </div>
+
+      <main className='main__productos'>
+        <div className='contenedor__productos'>
+<img src={locales[pintarlocales].data.imagenproducto1} alt="" className='imagen__producto'/>
+<div>{locales[pintarlocales].data.nameproducto1}</div>
+<div>${locales[pintarlocales].data.precioproducto1}</div>
+        </div>
+        <div className='contenedor__productos'>
+<img src={locales[pintarlocales].data.imagenproducto2} alt="" className='imagen__producto'/>
+<div>{locales[pintarlocales].data.nameproducto2}</div>
+<div>${locales[pintarlocales].data.precioproducto2}</div>
+        </div>
+        <div className='contenedor__productos'>
+<img src={locales[pintarlocales].data.imagenproducto3} alt="" className='imagen__producto'/>
+<div>{locales[pintarlocales].data.nameproducto3}</div>
+<div>${locales[pintarlocales].data.precioproducto3}</div>
+        </div>
+        <div className='contenedor__productos'>
+<img src={locales[pintarlocales].data.imagenproducto4} alt="" className='imagen__producto'/>
+<div>{locales[pintarlocales].data.nameproducto4}</div>
+<div>${locales[pintarlocales].data.precioproducto4}</div>
+        </div>
+        <div className='contenedor__productos'>
+<img src={locales[pintarlocales].data.imagenproducto5} alt="" className='imagen__producto'/>
+<div>{locales[pintarlocales].data.nameproducto5}</div>
+<div>${locales[pintarlocales].data.precioproducto5}</div>
+        </div>
+      </main>
       </div>
+      
      <Footer/>
     </>
    

@@ -34,7 +34,7 @@ import { useSelector } from "react-redux";
           )
         })):(<></>)
         } */}
-      <img src="https://i.pinimg.com/736x/cc/79/96/cc79962d6f7092663e619b6cf1e0b11f.jpg" alt="" className='foto__perfil'/>
+      <img src="https://vivolabs.es/wp-content/uploads/2022/03/perfil-mujer-vivo.png" alt="" className='foto__perfil'/>
       <p>{userStorage.name}</p>
       <form action="" className='formulario__perfil'>
       <input

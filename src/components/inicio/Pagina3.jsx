@@ -3,7 +3,7 @@ import logo from "../imagenes.food/pag3.png";
 import "../inicio/pagina3.scss";
 import letra from "../imagenes.food/letra2.png";
 import boton from "../imagenes.food/Button.png";
-import { useNavigate, Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
  const Pagina3 = () => {
     const navigate = useNavigate();
   const pagina4 = () => {

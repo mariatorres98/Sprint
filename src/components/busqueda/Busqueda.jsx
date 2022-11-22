@@ -17,7 +17,7 @@ const Busqueda = () => {
               <Button variant="outline-success">Search</Button>
               
             </Form>
-            <div>Resent searches</div>
+            
             
             <Footer/>
     </>

@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../imagenes.food/logo.png";
 import "../inicio/pagina1.scss";
-import { useNavigate, Link } from "react-router-dom";
+import { useNavigate} from "react-router-dom";
 const Pagina1 = () => {
   const navigate = useNavigate();
   const pagina2 = () => {

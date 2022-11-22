@@ -6,7 +6,7 @@ import Footer from "../footer/Footer";
 const Busqueda = () => {
   return (
     <>
-    <div>Busqueda</div>
+    
     <Form className="d-flex">
               <Form.Control
                 type="search"
@@ -15,7 +15,10 @@ const Busqueda = () => {
                 aria-label="Search"
               />
               <Button variant="outline-success">Search</Button>
+              
             </Form>
+            <div>Resent searches</div>
+            
             <Footer/>
     </>
     

@@ -1,6 +1,6 @@
 import { collection, getDocs } from "firebase/firestore"
 import { dataBase } from "../../firebase/firebaseConfig"
-import { localesTypes } from "../types/userTypes"
+import { localesTypes } from "../types/localesTypes"
 
 export const getLocalesAsync = () =>{
     return async(dispatch) =>{

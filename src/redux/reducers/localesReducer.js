@@ -1,4 +1,5 @@
-import { localesTypes } from "../types/userTypes";
+import { localesTypes } from "../types/localesTypes";
+
 const initialState={
   locales: []
 }

@@ -4,6 +4,3 @@ export const userTypes = {
     USER_LOGOUT: "USER_LOGOUT",
   };
   
-  export const localesTypes={
-    LOCALES_GET: "LOCALES_GET"
-  }

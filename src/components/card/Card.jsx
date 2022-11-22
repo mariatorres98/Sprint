@@ -2,7 +2,7 @@ import React from "react";
 import "./card.scss";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
-import { getLocalesAsync } from "../../redux/actions/localesActions";
+import { getLocalesAsync } from "../../redux/actions/localesAction";
 import { useNavigate} from "react-router-dom";
 
 const Card = () => {
@@ -18,8 +18,9 @@ const Card = () => {
 
 
   const navigate = useNavigate();
-  const restaurantes = () => {
-    navigate("/restaurantes");
+  
+  const restaurantes = (indice) => {
+    navigate(`/restaurantes/${indice}`);
   };
   return (
     <>
@@ -28,7 +29,7 @@ const Card = () => {
       locales && locales.length ? (locales.map((element, index)=>{
           return(
             <div key={index}>
-              <div className="card__restaurante" onClick={restaurantes} >
+              <div className="card__restaurante" onClick={()=>restaurantes(index)} >
               <img
                 src={element.data.imagen}
                 alt=""

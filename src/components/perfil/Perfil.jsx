@@ -5,8 +5,10 @@ import boton from '../imagenes.food/botonSave.png'
 // import { useDispatch, useSelector } from "react-redux";
 // import { useEffect } from "react";
 // import { actionRegisterAsync } from "../../redux/actions/userActions.js";
-
+import { useSelector } from "react-redux";
  const Perfil = () => {
+  const userStorage = useSelector((store) => store.user);
+ console.log(userStorage)
 // const perfiluser=useSelector(store=>store.userStore)
 // console.log(perfiluser)
 // const dispatch = useDispatch();
@@ -33,7 +35,7 @@ import boton from '../imagenes.food/botonSave.png'
         })):(<></>)
         } */}
       <img src="https://i.pinimg.com/736x/cc/79/96/cc79962d6f7092663e619b6cf1e0b11f.jpg" alt="" className='foto__perfil'/>
-      <p></p>
+      <p>{userStorage.name}</p>
       <form action="" className='formulario__perfil'>
       <input
                   className="imput"

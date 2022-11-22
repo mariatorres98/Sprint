@@ -11,7 +11,7 @@ const DashBoardRouter = () => {
   return (
     <Routes>
         <Route path='/home' element={<Home/>}/>
-        <Route path="/restaurantes" element={<Restaurantes />} />
+        <Route path="/restaurantes/:pintarlocales" element={<Restaurantes />} />
         <Route path="/perfil" element={<Perfil />} />
         <Route path="/busqueda" element={<Busqueda />} />
         <Route path="/pedidos" element={<PedidosAnteriores />} />

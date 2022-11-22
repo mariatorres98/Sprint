@@ -3,7 +3,7 @@ import { auth } from "../../firebase/firebaseConfig";
 import { google } from "../../firebase/firebaseConfig";
 
 import { userTypes } from "../types/userTypes";
-
+import { provider } from "../../firebase/firebaseConfig"
 export const actionRegisterAsync = ({ email, password, name, avatar, phoneNumber }) => {
   return (dispatch) => {
     createUserWithEmailAndPassword(auth, email, password)
@@ -123,4 +123,32 @@ const actionLogoutSync = () => {
     type: userTypes.USER_LOGOUT
   }
 
+}
+export const loginnProviderAsync = () =>{
+  return (dispatch) => {
+    signInWithPopup(auth, provider)
+      .then((result) => {
+        const user = result.user;
+        console.log(user)
+        const { displayName, accessToken, photoURL, phoneNumber } = user.auth.currentUser
+        dispatch(actionLoginSync({
+          email: user.email, 
+          name: displayName,
+          accessToken,
+          avatar: photoURL,
+          phoneNumber,
+          error: false
+        }))
+      })
+      .catch((error) => {
+        const errorCode = error.code;
+        const errorMessage = error.message;
+        console.log(errorCode);
+        console.log(errorMessage);
+        dispatch(actionLoginSync({
+          error: true,
+          errorMessage
+        }))
+      })
+  }
 }
